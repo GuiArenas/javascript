@@ -1,9 +1,11 @@
 function calcular() {
-var país = 'EUA'
-console.log(`Vivendo em ${país}`)
-if (país == 'Brasil') {
-    console.log('Você é Brasileiro!')
-} else {
-    console.log('Você é Estrangeiro!')
-}
+    var txtp = window.document.getElementById('txtpais')
+    var res = window.document.getElementById('res')
+    var nacionalidade = (txtp.value)
+    res.innerHTML = ('<p>Sua nacionalidade é:</p> ')
+    if (nacionalidade = 'Brasil') {
+        console.log('Brasileiro!')
+    } else {
+        console.log('Estrangeiro!')
+    }
 }
