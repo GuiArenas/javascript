@@ -5,17 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modelo de Exercício</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        #imagem {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+    </style>
 </head>
-<body>
+<body onload="carregar()">
     <header>
         <h1>Hora do Dia</h1>
     </header>
     <section>
-        <div>asd...
-
-        </div>
-        <div>
+        <div id="msg" style="margin-bottom: 15px;">
             
+        </div>
+        <div id="foto">
+           <img id="imagem">
         </div>
     </section>
     <footer>
